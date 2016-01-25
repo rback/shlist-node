@@ -1,0 +1,6 @@
+{
+  "name": "scraper",
+  "description": "scraper service.",
+  "version": "0.0.1",
+  "private": true
+}

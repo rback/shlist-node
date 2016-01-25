@@ -1,0 +1,37 @@
+{
+  "name": "yessql",
+  "description": "Yes! SQL.",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Sami Koskimäki",
+    "email": "sami.koskimaki@vincit.fi"
+  },
+  "dependencies": {
+    "expect.js": "0.3.1",
+    "gulp": "~3.8.6",
+    "gulp-jshint": "~1.10.0",
+    "gulp-util": "~3.0.0",
+    "gulp-watch": "~4.2.4",
+    "jshint-stylish": "~1.0.2",
+    "parse-database-url": "~0.2.0",
+    "bluebird": "2.9.25",
+    "lodash": "^3.6.0",
+    "minimist": "1.1.1",
+    "mocha": "2.2.4",
+    "moment": "2.10.2",
+    "passport": "0.2.1",
+    "through": "2.3.6",
+    "knex": "^0.8.3",
+    "express": "^4.12.0",
+    "pg": "^4.3.0",
+    "yessql-core": "git+https://bitbucket.org/vincit/yessql-core.git#fd2eb1c",
+    "yessql-features": "git+https://bitbucket.org/vincit/yessql-features.git#2edaf3d"
+  },
+  "devDependencies": {
+    "gulp-jsdoc": "~0.1.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
